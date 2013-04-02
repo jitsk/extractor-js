@@ -1,6 +1,6 @@
 {
 	"name" : "extractor",
-	"version" : "0.1.2b",
+	"version" : "0.1.2c",
 	"description" : "A small utility library for retrieving and scraping web content. It targets scraping content with a unique attribute id, class or tag.",
 	"main" : "./extractor.js",
 	"repository" : {
@@ -21,7 +21,7 @@
 		"npm" : ">= 1"
 	},
 	"dependencies" : {
-		"jsdom" : "git@github.com:touchlocal/jsdom.git#0.5.5b",
+		"jsdom" : "git://github.com/touchlocal/jsdom.git#0.5.5b",
                 "follow-redirects" : "0.0.3"
 	},
 	"scripts" : {
